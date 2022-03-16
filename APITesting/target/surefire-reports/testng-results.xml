@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15663" started-at="2022-03-16T17:46:44Z" finished-at="2022-03-16T17:47:00Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15663" started-at="2022-03-16T17:46:44Z" finished-at="2022-03-16T17:47:00Z">
+      <class name="RestTesting.E_Commerce1">
+        <test-method status="PASS" signature="Login()[pri:1, instance:RestTesting.E_Commerce1@27c6e487]" name="Login" duration-ms="4240" started-at="2022-03-16T23:16:52Z" finished-at="2022-03-16T23:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Getallusers()[pri:2, instance:RestTesting.E_Commerce1@27c6e487]" name="Getallusers" duration-ms="2508" started-at="2022-03-16T23:16:57Z" finished-at="2022-03-16T23:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getallusers -->
+      </class> <!-- RestTesting.E_Commerce1 -->
+      <class name="RestTesting.Trello">
+        <test-method status="PASS" signature="createBoard()[pri:0, instance:RestTesting.Trello@38364841]" name="createBoard" duration-ms="7109" started-at="2022-03-16T23:16:44Z" finished-at="2022-03-16T23:16:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method status="PASS" signature="getBoard()[pri:1, instance:RestTesting.Trello@38364841]" name="getBoard" duration-ms="838" started-at="2022-03-16T23:16:56Z" finished-at="2022-03-16T23:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method status="PASS" signature="DeleteBoard()[pri:2, instance:RestTesting.Trello@38364841]" name="DeleteBoard" duration-ms="924" started-at="2022-03-16T23:16:59Z" finished-at="2022-03-16T23:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteBoard -->
+      </class> <!-- RestTesting.Trello -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
