@@ -1,15 +1,15 @@
 package RestAssuredTesting;
+import org.junit.After;
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 
-import org.testng.Assert;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
+public class DiffJ_unit {
 
-public class DiffTestNG {
-	@BeforeTest
+	@Before 
 	public void BT()
 	{
-		String Name = "saksha m";
+		String Name = "Saksham";
 		String SName = "Agrawal";
 		Assert.assertEquals(SName, Name);
 	}
@@ -20,7 +20,7 @@ public class DiffTestNG {
 		System.out.println("This is my first teestcase1");
 	}
 	
-	@AfterTest
+	@After
 	public void AT()
 	{
 		System.out.println("This is After test");
