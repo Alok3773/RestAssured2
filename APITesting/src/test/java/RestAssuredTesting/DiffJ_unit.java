@@ -12,6 +12,8 @@ public class DiffJ_unit {
 		String Name = "Saksham";
 		String SName = "Agrawal";
 		Assert.assertEquals(SName, Name);
+		System.out.println("Alok");
+		
 	}
 	
 	@Test
